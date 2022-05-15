@@ -34,7 +34,9 @@
     <br>
     {% if message %}
     <div class="show-result">
-        <div class="output"><h3 style="color:black; font-size:22px; font-weight:bold; font-family:'Courier New', Courier, monospace; text-transform: uppercase;">{{message}}</h3></div>
+        <h3 style="color:white; font-size:22px; 
+        font-weight:bold; font-family: 'Rubik', sans-serif; text-transform: uppercase;">{{message}}</h3>
+        <div class="output"></div>
         <br>
         {% if result=='This Message is Not a SPAM Message.' %}
         <div class="output-logo">
@@ -69,11 +71,21 @@
     </div>
     {% else %}
     <div class="msg">
-        <h3 style="color:#FA58B6; padding:30px;font-size:35px; font-weight:bold; font-family: 'Rubik', sans-serif; text-align: center;">Enter A Message To Check, If Message is SPAM or NOT-SPAM...</h3>
+        <h3 style="color:white; padding:30px;font-size:35px; font-weight:bold; font-family: 'Rubik', sans-serif; text-align: center;">Enter A Message To Check, If Message Is SPAM Or Not SPAM...</h3>
     </div>
     {% endif %}
-    <div class="head-git"><p>Abhi dhekte hai kya likhna hai idhar</p> </div>
-
-    <div class="head"><p> Copyright &copy;SMS Spam Detector 2022</p></div> 
+    <div id="footer">
+        <div class="head-git"><p><strong>Final Project Implemented by 
+            Krishna Purwar
+            (1834810043), 
+            Piyush Johari 
+            (1834810063),
+            Sachin Gupta
+            (1834810081),
+            Vivek Soni
+            (1834840061) </strong></p> </div>
+    
+        <div class="head"><p> Copyright &copy;SMS Spam Detector 2022</p></div> 
+    </div>
 </body>
 </html>

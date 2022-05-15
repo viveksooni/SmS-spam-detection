@@ -96,14 +96,19 @@
 
 .show-result {
     height: content;
-    width: 100%;
+    width: 40%;
+    margin-left:auto;
+    margin-right:auto;
     display: flex;
+    text-align: center;
     justify-content: center;
     flex-flow: column wrap;
-    background-color: #1A1A40;
+    background: linear-gradient(to left, #8743ff, #4136f1);
     margin-bottom: 50px;
-    margin-top: -30px;
-    padding: 35px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
 }
 .output {
     height: content;
@@ -114,9 +119,14 @@
     font-size: 19px;
     font-weight: 300;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: red;
+    color: white;
+    text-shadow:
+    -1px -1px 0 red,
+    1px -1px 0 red,
+    -1px 1px 0 red,
+    1px 1px 0 red;
     margin-top: 5px;
-    padding: 30px;
+    padding: 20px;
 }
 .output-not {
   height: content;
@@ -127,14 +137,19 @@
   font-size: 19px;
   font-weight: 300;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: green;
+  color: white;
+  text-shadow:
+    -1px -1px 0 green,
+    1px -1px 0 green,
+    -1px 1px 0 green,
+    1px 1px 0 green;
   margin-top: 3px;
-  padding: 30px;
+  padding: 20px;
 }
 .output-logo {
   height: 100px;
   width: 100%;
-  margin-top:20px;
+  /* margin-top:10px; */
   justify-content: center;
   display: flex;
   align-items: center;
@@ -179,6 +194,7 @@
 } */
 
 .head-git{
+  margin-top:vh;
   background-color: white;
   width: 100%;
   text-align: center;
@@ -193,14 +209,15 @@
   /* position: relative;
   top: 50%;
   left: 50%; */
-  width: 500px;
+  width: 50%;
   padding: 40px;
   margin: 2.5em auto;
   /* transform: translate(-50%, -50%); */
-  background: rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to left, #8743ff, #4136f1);
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0,0,0,.6);
   border-radius: 10px;
+  margin-bottom: 22vh;
   
 }
 
@@ -217,7 +234,8 @@ textarea {
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
   -moz-border-top-colors: none;
-  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
+  background: none repeat scroll 0 0 #FFFFFF;
+    outline-width: 0;
   border-color: -moz-use-text-color #FFFFFF #FFFFFF -moz-use-text-color;
   border-image: none;
   border-radius: 6px 6px 6px 6px;
@@ -236,4 +254,11 @@ textarea {
 textarea:focus {
     background: none repeat scroll 0 0 #FFFFFF;
     outline-width: 0;
+}
+
+#footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  
 }
