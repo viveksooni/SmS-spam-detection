@@ -5,6 +5,7 @@
     
   }
 
+  
   .container{
     height: content;
     width: 100%;
@@ -14,15 +15,7 @@
     flex-flow: column;
     
   }
-  .head-nav {
-    height:30px;
-    width:100%;
-    background-color: green;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8px;
-  }
+ 
   .logo-heading {
     height: 220px;
     width: 220px;
@@ -32,9 +25,9 @@
     margin-left: auto;
     margin-right: auto;
     
-    /* justify-content: center;
-    align-items: center; */
-    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
   }
   .logo-heading img {
     
@@ -59,19 +52,8 @@
     
 
   }
-.text-box {
-    height: 65px;
-    width:90%;
-    border-radius: 5px;
-    border: 2px solid green;
-    background-color: rgb(252, 248, 248);
-    margin-top: 15px;
-    font-size: 14px;
-    font-weight: bold;
-}
-.form-control{
-  width: 90%;
-}
+
+
 
 #btn1{
   margin-top:10px;
@@ -162,13 +144,11 @@
 .head{
   
   width: 100%;
-  /* border-top: 2px solid black; */
+  
   background-color: #FA58B6;
-  /* display: flex;
-  flex-flow: column; */
+  
   text-align: center;
   margin-top: -8px;
-  /* padding-top: 5px; */
   
 }
 .head p {
@@ -177,21 +157,6 @@
   
   color:white;
 }
-/* .head-git{
-  height: 40px;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(250, 244, 244);
-  display: flex;
-  flex-flow: row;
-  margin-bottom: 5px;
-}
-.head-git h2 {
-  font-size: 18px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color:black;
-} */
 
 .head-git{
   margin-top:vh;
@@ -246,19 +211,16 @@ textarea {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 1em;
   line-height: 1.4em;
-  padding: 5px 8px;
+  padding: 10px 8px;
   transition: background-color 0.2s ease 0s;
 }
 
 
-textarea:focus {
-    background: none repeat scroll 0 0 #FFFFFF;
-    outline-width: 0;
-}
 
 #footer{
-  position: fixed;
+  /* position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 100%; */
+  margin-top:auto;
   
 }
